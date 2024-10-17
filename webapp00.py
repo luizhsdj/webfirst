@@ -11,13 +11,13 @@ Configurar_Pagina("Exemplo 1",
                     "©️")
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("luiz henrique")
+st.title("Quero minha casa")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("mestre do jogo")
+st.header(" to cansado")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Que jogo?")
+st.subheader("quero dormir")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
