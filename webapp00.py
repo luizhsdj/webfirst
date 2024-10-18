@@ -2,8 +2,8 @@
 import streamlit as st
 from ACTlib01 import *
 url = ""
-db = Ler_GooglePlanilha(https://docs.google.com/spreadsheets/d/e/2PACX-1vTwCjMGt5kvTYkwEh0fe40ae0Xxtyi1Hikb7lgqXCApgy8OYqXNE6NLuD8iunrr2o0qDuBZRUFVDpy5/pub?gid=154540954&single=true&output=csv)
-Escrever(db)
+db = Ler_GooglePlanilha(url)
+Escrever(https://docs.google.com/spreadsheets/d/e/2PACX-1vTwCjMGt5kvTYkwEh0fe40ae0Xxtyi1Hikb7lgqXCApgy8OYqXNE6NLuD8iunrr2o0qDuBZRUFVDpy5/pub?gid=154540954&single=true&output=csv)
 
 Configurar_Pagina("Exemplo 1", 
                     "amplo", 
