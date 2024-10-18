@@ -1,9 +1,9 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 from ACTlib01 import *
-url = ""
+url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTwCjMGt5kvTYkwEh0fe40ae0Xxtyi1Hikb7lgqXCApgy8OYqXNE6NLuD8iunrr2o0qDuBZRUFVDpy5/pub?gid=154540954&single=true&output=csv"
 db = Ler_GooglePlanilha(url)
-Escrever(https://docs.google.com/spreadsheets/d/e/2PACX-1vTwCjMGt5kvTYkwEh0fe40ae0Xxtyi1Hikb7lgqXCApgy8OYqXNE6NLuD8iunrr2o0qDuBZRUFVDpy5/pub?gid=154540954&single=true&output=csv)
+Escrever(db)
 
 Configurar_Pagina("Exemplo 1", 
                     "amplo", 
